@@ -1,5 +1,7 @@
 """apriltag_detect.py — Robust Multi-Altitude AprilTag Pose Estimator."""
-
+import numpy as np
+import cv2
+from pupil_apriltags import Detector
 
 
 from .camera_sim import (
